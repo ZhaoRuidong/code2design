@@ -22,15 +22,81 @@
 | 架构解释 | "帮助理解模块间的依赖关系"、"系统整体架构是什么？" |
 | 调试指导 | "我遇到了这个错误 - 可能是什么原因？" |
 
+## 安装方法
+
+### 方法一：手动安装（推荐）
+
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/ZhaoRuidong/code2design.git
+   cd code2design
+   ```
+
+2. **创建技能目录**
+   ```bash
+   mkdir -p ~/.claude/skills
+   ```
+
+3. **复制技能文件**
+   ```bash
+   cp code-design-exporter/SKILL.md ~/.claude/skills/code-design-exporter.md
+   ```
+
+4. **验证安装**
+   ```bash
+   ls ~/.claude/skills/code-design-exporter.md
+   ```
+
+### 方法二：符号链接安装（开发时使用）
+
+如果您想保持技能文件与仓库同步：
+
+1. **创建技能目录**
+   ```bash
+   mkdir -p ~/.claude/skills
+   ```
+
+2. **创建符号链接**
+   ```bash
+   ln -s /path/to/code-design-exporter/SKILL.md ~/.claude/skills/code-design-exporter.md
+   ```
+
+   请将 `/path/to/code-design-exporter/` 替换为您仓库的实际路径
+
+### 方法三：一键安装脚本
+
+在项目根目录运行：
+
+```bash
+./install.sh
+```
+
+或者直接执行：
+
+```bash
+mkdir -p ~/.claude/skills && cp SKILL.md ~/.claude/skills/code-design-exporter.md && echo "Skill 已成功安装到 ~/.claude/skills/code-design-exporter.md"
+```
+
 ## 使用方法
 
-### 1. 确保已安装 Claude Code
+### 1. 重启 Claude Code
 
-如果您还没有安装 Claude Code，请访问 [Claude Code 官网](https://claude.com/claude-code) 了解安装方法。
+安装技能后，请重启 Claude Code 以加载新技能：
 
-### 2. 配置 Skill
+```bash
+# 如果正在运行，按 Ctrl+C 退出，然后重新运行
+claude
+```
 
-将此 Skill 配置到您的 Claude Code 环境中。Claude Code 会在您提出相关问题时自动触发该技能。
+### 2. 验证技能加载
+
+启动 Claude Code 后，技能会自动加载。您可以向 Claude 提问来测试：
+
+```bash
+"这个功能如何工作？"
+```
+
+如果技能正常工作，Claude 会使用 code-design-exporter 技能进行分析。
 
 ### 3. 直接提问
 
