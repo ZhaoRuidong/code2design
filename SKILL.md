@@ -1,5 +1,5 @@
 ---
-name: code-analyzer
+name: code-design-exporter
 description: "代码架构分析器 - 分析代码模块以理解系统功能设计、实现原理、工作流程和数据库模型。当用户询问'这个功能如何工作'、'为什么会出现这种情况'、'帮助理解架构'或类似代码探索请求时使用此技能。"
 compatibility:
   required_tools: []
