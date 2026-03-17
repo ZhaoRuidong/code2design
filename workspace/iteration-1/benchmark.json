@@ -1,0 +1,75 @@
+{
+  "skill_name": "code-analyzer",
+  "iterations": [
+    {
+      "iteration": 1,
+      "timestamp": "2026-03-13T09:00:00Z",
+      "evaluations": {
+        "eval-0-with_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis",
+          "pass_rate": 0.75,
+          "time_seconds": 229.5,
+          "tokens": 44095,
+          "assertions": {
+            "total": 8,
+            "passed": 6,
+            "failed": 2,
+            "details": [
+              {"text": "报告包含功能概述部分，清晰描述ETL功能的作用和价值", "passed": true},
+              {"text": "报告包含架构设计部分，使用Mermaid图表展示模块结构", "passed": false},
+              {"text": "报告包含核心实现原理部分，解释关键技术点", "passed": true},
+              {"text": "报告包含数据流转过程部分，使用Mermaid时序图", "passed": false},
+              {"text": "报告包含依赖关系部分，说明内外部依赖", "passed": true},
+              {"text": "报告包含常见问题与排查指南部分，提供具体的问题定位方法", "passed": true},
+              {"text": "报告结构清晰，逻辑连贯，易于理解", "passed": true},
+              {"text": "报告内容详实，包含具体的代码示例和实现细节", "passed": true}
+            ]
+          },
+          "timing": {
+            "total_tokens": 44095,
+            "duration_ms": 229547,
+            "total_duration_seconds": 229.5
+          }
+        },
+        "eval-0-without_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis",
+          "pass_rate": 1.0,
+          "time_seconds": 155.6,
+          "tokens": 0,
+          "assertions": {
+            "total": 8,
+            "passed": 8,
+            "failed": 0,
+            "details": [
+              {"text": "报告包含功能概述部分，清晰描述ETL功能的作用和价值", "passed": true},
+              {"text": "报告包含架构设计部分，使用Mermaid图表展示模块结构", "passed": true},
+              {"text": "报告包含核心实现原理部分，解释关键技术点", "passed": true},
+              {"text": "报告包含数据流转过程部分，使用Mermaid时序图", "passed": true},
+              {"text": "报告包含依赖关系部分，说明内外部依赖", "passed": true},
+              {"text": "报告包含常见问题与排查指南部分，提供具体的问题定位方法", "passed": true},
+              {"text": "报告结构清晰，逻辑连贯，易于理解", "passed": true},
+              {"text": "报告内容详实，包含具体的代码示例和实现细节", "passed": true}
+            ]
+          },
+          "timing": {
+            "total_tokens": 0,
+            "duration_ms": 155558,
+            "total_duration_seconds": 155.6
+          }
+        }
+      },
+      "summary": {
+        "pass_rate_with_skill_mean": 0.75,
+        "pass_rate_without_skill_mean": 1.0,
+        "time_with_skill_mean": 229.5,
+        "time_without_skill_mean": 155.6,
+        "tokens_with_skill_mean": 44095,
+        "tokens_without_skill_mean": 0,
+        "pass_rate_delta": -0.25,
+        "time_delta_seconds": 73.9
+      }
+    }
+  ]
+}

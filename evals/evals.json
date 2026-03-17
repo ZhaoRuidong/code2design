@@ -1,0 +1,136 @@
+{
+  "skill_name": "code-analyzer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我需要理解 DWS 中的数据集成（ETL）功能，当实施人员在使用过程中遇到数据同步失败的问题时，我需要知道如何分析问题根源。请帮我分析 dws-server 项目中的数据集成模块，包括架构设计、数据流和问题定位方法。",
+      "expected_output": "生成一个详细的架构分析报告，包含 ETL 模块的结构、数据流转过程、常见问题排查指南等。报告应该包含 Mermaid 架构图和时序图，帮助用户理解数据从源端到目标端的完整流程。",
+      "assertions": [
+        {
+          "text": "报告包含功能概述部分，清晰描述ETL功能的作用和价值",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含架构设计部分，使用Mermaid图表展示模块结构",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含核心实现原理部分，解释关键技术点",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含数据流转过程部分，使用Mermaid时序图",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含依赖关系部分，说明内外部依赖",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含常见问题与排查指南部分，提供具体的问题定位方法",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告结构清晰，逻辑连贯，易于理解",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告内容详实，包含具体的代码示例和实现细节",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "我想了解 DWS 项目中的 SQL 血缘分析功能是如何工作的。当用户在执行 SQL 任务时出现血缘分析失败，我需要快速定位问题是出在 SQL 解析器还是分析器组件。请深入分析 sqlflow 模块的设计和实现原理。",
+      "expected_output": "生成血缘分析功能的架构报告，包含解析器和分析器的实现原理、数据流分析、组件间的依赖关系，以及 SQL 解析失败的排查指南。",
+      "assertions": [
+        {
+          "text": "报告清晰描述了SQL血缘分析的整体架构",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告详细分析了SQL解析器的实现原理",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告详细分析了血缘分析器的实现原理",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含数据流分析，展示SQL到血缘的转换过程",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告提供了SQL解析失败的排查指南",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含了具体的错误码和错误处理说明",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告使用了图表来可视化复杂的分析过程",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "请帮我分析 DWS 的任务调度功能。当调度任务执行失败或执行时间异常时，我需要知道是 DolphinScheduler 的问题还是任务配置的问题。请分析 dolphinscheduler 与 dws-server 的交互机制。",
+      "expected_output": "生成任务调度功能的综合分析，包含 DolphinScheduler 的架构、与 DWS Server 的集成方式、任务执行流程、以及性能问题定位的方法。需要包含调度流程的时序图。",
+      "assertions": [
+        {
+          "text": "报告详细分析了DolphinScheduler的架构和工作原理",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告清晰说明了DWS Server与DolphinScheduler的集成方式",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含了任务执行流程的时序图",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告提供了性能问题定位的具体方法",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告区分了任务配置问题和调度器问题的排查方法",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告包含了相关的配置参数和优化建议",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "报告结构清晰，包含了实用的故障排查步骤",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    }
+  ]
+}

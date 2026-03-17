@@ -1,0 +1,97 @@
+{
+  "skill_name": "code-analyzer",
+  "iterations": [
+    {
+      "iteration": 1,
+      "timestamp": "2026-03-13T09:00:00Z",
+      "evaluations": {
+        "eval-0-with_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis",
+          "pass_rate": 0.75,
+          "time_seconds": 229.5,
+          "tokens": 44095,
+          "assertions": {
+            "total": 8,
+            "passed": 6,
+            "failed": 2
+          }
+        },
+        "eval-0-without_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis",
+          "pass_rate": 1.0,
+          "time_seconds": 155.6,
+          "tokens": 0,
+          "assertions": {
+            "total": 8,
+            "passed": 8,
+            "failed": 0
+          }
+        }
+      },
+      "summary": {
+        "pass_rate_with_skill_mean": 0.75,
+        "pass_rate_without_skill_mean": 1.0,
+        "time_with_skill_mean": 229.5,
+        "time_without_skill_mean": 155.6
+      }
+    },
+    {
+      "iteration": 2,
+      "timestamp": "2026-03-13T09:30:00Z",
+      "evaluations": {
+        "eval-0-with_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis-iteration2",
+          "pass_rate": 0.875,
+          "time_seconds": 160.8,
+          "tokens": 61027,
+          "assertions": {
+            "total": 8,
+            "passed": 7,
+            "failed": 1
+          }
+        },
+        "eval-0-without_skill": {
+          "eval_id": 0,
+          "eval_name": "data-integration-etl-analysis-iteration2",
+          "pass_rate": 0.625,
+          "time_seconds": 345.3,
+          "tokens": 67738,
+          "assertions": {
+            "total": 8,
+            "passed": 5,
+            "failed": 3
+          }
+        }
+      },
+      "summary": {
+        "pass_rate_with_skill_mean": 0.875,
+        "pass_rate_without_skill_mean": 0.625,
+        "time_with_skill_mean": 160.8,
+        "time_without_skill_mean": 345.3,
+        "pass_rate_delta": 0.25,
+        "time_delta_seconds": -184.5
+      }
+    }
+  ],
+  "overall_comparison": {
+    "iteration1": {
+      "pass_rate_with_skill": 0.75,
+      "pass_rate_without_skill": 1.0,
+      "skill_worse_by_pass_rate": -0.25
+    },
+    "iteration2": {
+      "pass_rate_with_skill": 0.875,
+      "pass_rate_without_skill": 0.625,
+      "skill_better_by_pass_rate": 0.25
+    },
+    "improvement": {
+      "pass_rate_improvement": "+0.125 (+16.7%)",
+      "time_improvement": "-68.7s (-30%)",
+      "mermaid_fix_successful": true,
+      "mermaid_fix_notes": "Architecture diagram now uses Mermaid format, but sequence diagrams still use text format"
+    }
+  }
+}

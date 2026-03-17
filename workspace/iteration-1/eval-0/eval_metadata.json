@@ -1,0 +1,6 @@
+{
+  "eval_id": 0,
+  "eval_name": "data-integration-etl-analysis",
+  "prompt": "我需要理解 DWS 中的数据集成（ETL）功能，当实施人员在使用过程中遇到数据同步失败的问题时，我需要知道如何分析问题根源。请帮我分析 dws-server 项目中的数据集成模块，包括架构设计、数据流和问题定位方法。",
+  "assertions": []
+}

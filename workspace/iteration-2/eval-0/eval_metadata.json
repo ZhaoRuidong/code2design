@@ -1,0 +1,47 @@
+{
+  "eval_id": 0,
+  "eval_name": "data-integration-etl-analysis-iteration2",
+  "prompt": "我需要理解 DWS 中的数据集成（ETL）功能，当实施人员在使用过程中遇到数据同步失败的问题时，我需要知道如何分析问题根源。请帮我分析 dws-server 项目中的数据集成模块，包括架构设计、数据流和问题定位方法。",
+  "assertions": [
+    {
+      "text": "报告包含功能概述部分，清晰描述ETL功能的作用和价值",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告包含架构设计部分，使用Mermaid图表展示模块结构",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告包含核心实现原理部分，解释关键技术点",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告包含数据流转过程部分，使用Mermaid时序图",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告包含依赖关系部分，说明内外部依赖",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告包含常见问题与排查指南部分，提供具体的问题定位方法",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告结构清晰，逻辑连贯，易于理解",
+      "passed": false,
+      "evidence": ""
+    },
+    {
+      "text": "报告内容详实，包含具体的代码示例和实现细节",
+      "passed": false,
+      "evidence": ""
+    }
+  ]
+}
